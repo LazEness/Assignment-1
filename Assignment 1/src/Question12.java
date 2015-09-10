@@ -6,6 +6,7 @@ public class Question12 {
 		
 		String binary, n1, n2, n3, n4; 
 		int b1, b2, b3, b4, decimal;
+		System.out.println("Please enter a 4 digit binary code.");
 		binary = keyboard.nextLine();
 		n1 = binary.substring(0,1);
 		n2 = binary.substring(1,2);
